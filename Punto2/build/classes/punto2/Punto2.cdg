@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Punto2">
+  <ClassDiagramComponents>
+    <Class name="Coche" package="" visibility="public" xPosition="275.0" yPosition="118.0">
+      <Fields>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="marca" type="String" visibility="private"/>
+        <Field name="matricula" type="String" visibility="private"/>
+        <Field name="caballos" type="int" visibility="private"/>
+        <Field name="puertas" type="int" visibility="private"/>
+        <Field name="modelo" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="getMatricula" returnType="String" visibility="public"/>
+        <Method name="getCaballos" returnType="int" visibility="public"/>
+        <Method name="getPuertas" returnType="int" visibility="public"/>
+        <Method name="getModelo" returnType="int" visibility="public"/>
+        <Method name="setColor" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="String" visibility="public"/>
+        <Method name="setMatricula" returnType="String" visibility="public"/>
+        <Method name="setCaballos" returnType="int" visibility="public"/>
+        <Method name="setPuertas" returnType="int" visibility="public"/>
+        <Method name="setModeloo" returnType="int" visibility="public"/>
+        <Method name="datos" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
